@@ -1,0 +1,934 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img
+{
+	width: 100%;
+}
+
+ul li
+{
+	list-style: none;
+}
+
+body
+{
+	font-family: "Rubik", sans-serif;
+}
+
+a
+{
+	text-decoration: none;
+	color: hsl(229, 31%, 21%);
+}
+
+.inicio
+{
+	max-width: 1440px;
+	width: 100%;
+	margin: 0;
+	height: 100%
+	background-color:.hsl(255, 255, 255%);
+}
+
+.propiedades ul li
+{
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	margin-right: 2rem;
+}
+
+.propiedades ul:last-child li:last-child 
+{
+    margin-right: 0;
+}
+
+button
+{
+	cursor:pointer;
+	transition: all .3s ease-out;
+}
+
+.redes-sociales, .hamburger
+{
+	display: none;
+}
+
+nav, .propiedades
+{
+	display:flex;
+}
+
+.propiedades ul li a:hover, 
+.propiedades ul li a:focus,
+.redes-sociales ul li a i:hover,
+.redes-sociales ul li a i: focus
+{
+	color: hsl(0, 94, 66%);
+	transition: all .2s ease-out;
+}
+
+nav
+{
+	padding: 5rem 2rem 5rem 2rem;
+	align-items: center;
+	line-height: 40px;
+	justify-content: space-between;
+	height: 200px;
+}
+
+.logo
+{
+	display:flex;
+}
+
+.logo img
+{
+	align-items: center;
+}
+
+
+
+.login-button
+{
+	width: 120px;
+	height: 40px;
+	border-radius: 5px;
+	color:white;
+	background-color: hsl(0, 94%, 66%);
+}
+
+.login-button:hover
+{
+	background-color: white;
+	color: hsl(0, 94%, 66%);
+	border-width: :5px;
+	border-color: hsl(0, 94%, 66%);
+
+}
+
+.hamburger
+{
+	cursor:pointer;
+}
+
+.texto-hero
+{
+	text-align: center;
+	width: 90%;
+	margin: 0;
+}
+
+.caracteristicas
+{
+	text-align: center;
+	width: 90%;
+	margin: 0;
+}
+
+.texto-hero p
+{
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+.hero-chrome
+{
+	width: 150px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: hsl(229, 8%, 90%);
+	color: hsl(229, 8%, 90%);
+	font-weight: bold;
+	cursor:pointer;
+	transition: all .3s ease-out;
+}
+
+.hero-image
+{
+	margin-bottom: 5rem;
+}
+
+.hero-chrome_active
+{
+	color:white;
+	background-color: hsl(231, 69%, 60%);
+}
+
+.hero-chrome:hover, 
+.hero-chrome:focus
+{
+	color: hsl(231, 69%, 60%);
+	border:1px hsl(231, 69%, 60%);
+	background-color: white;
+}
+
+.hero-fire:hover, 
+.hero-fire:focur
+{
+	color:hsl(229, 31%, 21%);
+ 	border:1px hsl(229, 31%, 21%);
+    background-color: white;
+}
+
+.botones-hero button:first-child
+{
+	margin-right: 1rem
+}
+
+.hero-image
+{
+	position: relative;
+}
+
+.propiedades
+{
+	margin-top: 5rem;
+}
+
+.propiedades h2
+{
+	margin-bottom: 1rem;
+}
+
+.hero
+{
+	position: relative;
+	z-index: 1;
+}
+
+.tabla ul
+{
+	margin-top: 3rem;
+	list-style: none;
+}
+
+.tabla ul li:first-child
+{
+	border-top: 1px hsl(0, 0%, 87%);
+}
+
+.tabla ul li
+{
+	text-align: center;
+	height: 3rem;
+	border-bottom: 1px hsl(0, 0%, 87%);
+	margin:0;
+	width: 90%;
+	line-height: 3rem;
+}
+
+.caracteristicas p,
+.inf p,
+.presentacion p
+{
+	color:hsl(229, 8%, 60%);
+}
+
+.contenido-tabla
+{
+	margin-top: 4rem;
+}
+
+.dato
+{
+	display:none;
+}
+
+.dato.active
+{
+	display:block;
+}
+
+.tabla ul li a
+{
+	color: hsl(229, 8%, 60%);
+	padding-bottom: 0.7rem;
+}
+
+.nav .active a
+{
+	border-bottom: 3px hsl(0, 94%, 66%);
+}
+
+.xd img
+{
+	width: 80%;
+	display:block;
+	margin:0;
+}
+
+.xd
+{
+	position: relative;
+	z-index: 10;
+}
+
+.inf
+{
+	text-align: center;
+	padding-top: 10rem;
+	padding-bottom: 5rem;
+	width: 80%
+	margin:0;
+}
+
+.inf_
+{
+	padding-bottom: 3rem;
+}
+
+.inf h4
+{
+	color: hsl(229, 31%, 21%);
+}
+
+.presentacion img
+{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	width: 30%;
+}
+
+.presentacion p
+{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.dots-icon
+{
+	width: 100%;
+}
+
+.presentacion
+{
+	text-align: center;
+	margin: 0;
+	border-radius: 10px;
+	margin-bottom: 2rem;
+	width: 80%;
+	padding: 2rem;
+	-webkit-box-shadow: 0px 13px 18px -3px rgba(82,102,223,0.55);
+     -moz-box-shadow: 0px 13px 18px -3px rgba(82,102,223,0.55);
+     box-shadow: 0px 13px 18px -3px rgba(82,102,223,0.55);
+}
+
+.iconos
+{
+	width: 80%;
+	margin: 0;
+	display: block;
+	background-color: hsl(231, 69%, 60%);
+	color:white;
+	text-align: center;
+}
+
+button.opcion
+{
+	color:hsl(229, 31%, 21%);
+    cursor: pointer;
+    width: 20%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-weight: bold;
+    float: left;
+    height: 50px;
+    background-color: white;
+    border-bottom:1px hsl(0, 0%, 87%);
+}
+
+.texto-basura
+{
+	top: 100px;
+	padding: 1px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease 0.3s;
+    color: hsl(229, 31%, 21%);
+    position: absolute;
+}
+
+.texto-basura-open
+{
+	transition: all 0.3s ease 0.3s;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-bottom: 1px hsl(0, 0%, 87%);
+	max-height: 100%
+}
+
+.libreria button
+{
+	width: 100%
+}
+
+.libreria
+{
+	margin:0;
+	width: 90%
+}
+
+.moreInfo
+{
+	margin:0;
+	display:block;
+	background-color: hsl(231, 69%, 60%);
+	margin-bottom: 5rem;
+	margin-top: 3rem;
+	color:white;
+}
+
+.iconos:hover, .moreInfo:hover, .iconos:focus, .moreInfo:focus
+{
+	background-color:hsl(229, 31%, 21%);
+    color:white;
+}
+
+button.opcion:after
+{
+	content: url(imagenes/icon-arrow.svg);
+	color: hsl(229, 31%, 21%);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.opcion.active:after
+{
+	content: url("imagenes/icon-arrow.svg");
+	transform: rotate(180deg);
+	color: hsl(229, 31%, 21%);
+}
+
+button.opcion
+{
+	width: 100%;
+	height: 4em;
+}
+
+button.opcion:hover
+{
+	color: hsl(0, 94%, 66%);
+}
+
+div.texto-basura
+{
+	position: relative;
+	top:initial;
+}
+
+.contacto
+{
+	text-align: center;
+	color:white;
+	padding:3rem;
+	background-color: hsl(231, 69%, 60%);
+}
+
+.btn_email
+{
+	background-color: hsl(0, 94%, 66%);
+}
+
+.btn_email:hover, .btn_email:focus
+{
+	background-color:  hsl(0, 94%, 46%);
+    border:none;
+}
+
+.contacto p span
+{
+	text-transform: uppercase;
+	margin-bottom: 3rem;
+	font-size: 1rem;
+}
+
+.contacto p
+{
+	padding-bottom: 3rem;
+	font-size: 1.6rem;
+	margin:0;
+	width: 90%;
+}
+
+.contacto2 input
+{
+	padding:1rem;
+    height: 50px;
+    margin-bottom:2rem;
+    width:80%;
+    border-radius: 5px;
+    outline:none;
+    border:none;
+}
+
+.contacto2 input::placeholder
+{
+	color: hsl(0, 0%, 74%);
+}
+
+.links ul li a, .links2 ul li a
+{
+	color:white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 2px;
+}
+
+.links ul li
+{
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.red
+{
+	font-size: 2rem;
+}
+
+.links ul li a:hover, .links2 ul li a:hover
+{
+	color:  hsl(231, 69%, 60%);
+    transition: all .3s ease-out;
+}
+
+.links2
+{
+	display: flex;
+    justify-content: center;
+}
+
+.links2 ul:first-child
+{
+	margin-right: 2rem;
+}
+
+footer
+{
+	background-color: hsl(229, 31%, 21%); 
+    padding:2rem;
+}
+
+.logo_f svg path
+{
+	fill: hsl(0, 0%, 100%);
+}
+
+.logo_f svg path:last-child
+{
+	fill:hsl(229, 31%, 21%);
+}
+
+.logo_f
+{
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+.hero-imagen_bg
+{
+	position: absolute;
+    background: hsl(231, 69%, 60%);
+    border-radius: 0% 0% 0% 45% / 0% 0% 0% 45%;
+    width: calc(100% - 25vw);
+    height:calc(100% - 18vw);
+    right:0;
+    bottom:0;
+    z-index: -1;
+}
+
+.bg_2
+{
+	left:0;
+    border-radius: 0% 0% 45% 0% / 0% 0% 45% 0%;
+    bottom:calc(100% - 63vw);
+    height:calc(100% - 5vw);
+}
+
+.bg_3
+{
+	height:calc(100% - 15vw);
+    bottom:calc(100% - 75vw);
+}
+
+.hero-imagen img
+{
+	width: 90%;
+	display: block;
+	margin:0;
+}
+
+@media only screen and (max-width: 679px)
+{
+	.inicio
+	{
+		position: relative;
+	}
+
+	nav
+	{
+		position: relative;
+		z-index: 10;
+	}
+
+	.menu
+	{
+		position: absolute;
+        top:0;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        height:100vh;
+        padding-top:10rem;
+        background-color: hsl(229, 31%, 21%, 0.9); 
+        z-index: -1;
+	}
+
+	.encabezado
+	{
+		display: none;
+	}
+
+	.propiedades
+	{
+		display: block;
+		padding: 2rem;
+	}
+
+	.propiedades ul li
+	{
+		border-top: 1px solid hsl(229, 8%, 60%);
+        text-align: center;
+        margin-right:0;
+	}
+
+	.propiedades ul li a, .redes-sociales ul li i
+	{
+		color:white;
+	}
+
+	.redes-sociales
+	{
+		display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        align-items: center;
+        align-self: center;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+	}
+
+	.redes-sociales ul li
+	{
+		margin:1rem;
+	}
+
+	.mobile
+	{
+		background-color:  hsl(229, 31%, 21%,0);
+        border: 1px solid white;
+        width: 100%;
+        margin-top:1rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 600;
+	}	
+
+	.red
+	{
+		font-size: 2rem;
+	}
+
+	.hamburger
+	{
+		display:flex;
+		cursor:pointer;
+	}
+
+	.mobile svg
+	{
+		fill: aliceblue;
+	}
+}
+
+@media only screen and (min-width: 680px)
+{
+	.presentacion
+	{
+		max-width: 30%
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 960px)
+{
+	.presentacion
+	{
+		max-width: 30%;
+		width: 100%
+	}
+
+	.navegadores
+	{
+		display: flex;
+	}
+
+	.texto-basura, .inf_, .contacto p, .contacto2, .caracteristicas, .tabla
+	{
+		width: 60%
+	}
+
+	.tabla
+	{
+		margin:0;
+	} 
+
+	.contacto2
+	{
+		display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+	}
+
+	.contacto2 input
+	{
+		width: 60%
+	}
+
+	.btn_email
+	{
+		width: 30%
+		margin:0;
+	}
+
+	.logo_f
+	{
+		padding: 0;
+	}
+
+	footer
+	{
+		display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 10rem;
+        padding-right: 10rem;
+	}
+
+	.links2
+	{
+		margin-left: 0;		
+	}
+
+	.links
+	{
+		display: flex;
+		margin: auto;
+	}
+
+	.links ul li
+	{
+		margin:0;
+		margin-right: 2rem;
+	}
+
+	.links ul li a
+	{
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (min-width: 1100px)
+{
+	.presentacion
+	{
+		width:27%;
+        margin: 0;
+        margin-right: 2rem;
+        height:45%;
+	}
+
+	.presentacion:nth-child(2)
+	{
+		margin-top: 3rem
+	}
+
+	.presentacion:nth-child(3)
+	{
+		margin-top: 6rem;
+		margin-right: 0;
+	}
+
+	.navegadores
+	{
+		 width:90%;
+        margin:0 auto;
+        justify-content: center;
+	}
+
+	.iconos
+	{
+		width: 90%
+	}
+
+	.btn_email
+	{
+		width: 30%;
+		margin:0;
+	}
+
+	.hero
+	{
+		display: flex;
+        margin-left: 2rem;
+        margin-right:2rem;
+	}
+
+	.texto-hero
+	{
+		order:1;
+        text-align: left;
+        align-self: center;
+        width:40%;
+	}
+
+	.hero-imagen
+	{
+		order:2;
+	}
+
+	.dato.active
+	{
+		display: flex; 
+        margin-left: 2rem;
+        margin-right:2rem;
+	}
+
+	.inf
+	{
+		text-align: left;
+        align-self: center;
+        width:40%;
+        padding:0;
+	}
+
+	.inf p
+	{
+		margin-bottom: 2rem;
+	}
+
+	.moreInfo
+	{
+		margin:0;
+	}
+
+	.xd img
+	{
+		width: 80%;
+	}
+
+	.inf_
+	{
+		text-align: center;
+        margin-top: 10rem;
+	}
+
+	.hero-imagen_bg
+	{
+		border-radius: 0% 0% 0% 45% / 0% 0% 0% 45%;
+        width: calc(100% - 13vw);
+        height:calc(100% - 10vw);
+	}
+
+	.bg_2
+	{
+		left:0;
+        border-radius: 0% 0% 45% 0% / 0% 0% 45% 0%;
+        bottom:calc(100% - 38vh);
+        height:calc(100% - 3vh);
+        width: calc(100% - 10vw);
+	}
+}
+
+@media only screen and (min-width: 1440px)
+{
+	nav, .hero, .dato.active
+	{
+		margin-left: 10;
+        margin-right: 10; 
+        padding:0;
+	}
+
+	.presentacion
+	{
+		width: 25%
+	}
+
+	.texto-basura, .inf_, .contacto p, .contacto2, .caracteristicas, .tabla
+	{
+		width: 40%
+	}
+
+	.hero-imagen_bg
+	{
+		border-radius: 0% 0% 0% 45% / 0% 0% 0% 45%;
+        width: calc(100% - 8vw);
+        height:calc(100% - 6vw);
+	}
+
+	.bg_2
+	{
+		left:0;
+        border-radius: 0% 0% 45% 0% / 0% 0% 45% 0%;
+        bottom:calc(100% - 38vh);
+        height:calc(100% - 3vh);
+        width: calc(100% - 6vw);
+	}
+
+	.tabla ul
+	{
+		display: flex;
+	}
+
+	.tabla ul li:first-child
+	{
+		border-top:none;
+	}
+
+	.caracteristicas
+	{
+		width: 50%;
+	}
+
+	.tabla
+	{
+		width: 60%;
+	}
+
+	.tabla ul li a
+	{
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+
+	.tabla ul
+	{
+		border-bottom: 1px hsl(0, 0%, 87%);
+	}
+}
